@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Pro – Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h2>Fitness Pro</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="diet.html">Diet Plans</a>
+        <a href="workout.html">Workout</a>
+        <a href="dashboard.html">Dashboard</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Transform Your Body</h1>
+</div>
+
+<div class="card">
+    <h2>Gym Admission Form</h2>
+    <form id="gymForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Email Address">
+        <input type="number" id="age" placeholder="Age">
+        <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+</div>
+
+<div class="card">
+    <h2>BMI Calculator</h2>
+    <input type="number" id="weight" placeholder="Weight (kg)">
+    <input type="number" id="height" placeholder="Height (m)">
+    <button id="bmiBtn" type="button">Calculate</button>
+    <p id="bmiResult"></p>
+</div>
+
+<div class="card">
+    <h2>Calorie Calculator</h2>
+    <input type="number" id="cal1" placeholder="Food 1 (Calories)">
+    <input type="number" id="cal2" placeholder="Food 2 (Calories)">
+    <input type="number" id="cal3" placeholder="Food 3 (Calories)">
+    <button id="calBtn" type="button">Total Calories</button>
+    <p id="calorieOutput"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

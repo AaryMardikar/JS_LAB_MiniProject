@@ -1,0 +1,14 @@
+[
+    {
+        "category": "weightloss",
+        "breakfast": "Green tea + Oats",
+        "lunch": "Brown rice + boiled veggies",
+        "dinner": "Soup + salad"
+    },
+    {
+        "category": "muscle",
+        "breakfast": "Eggs + Banana shake",
+        "lunch": "Chicken + Rice",
+        "dinner": "Paneer + multigrain roti"
+    }
+]
